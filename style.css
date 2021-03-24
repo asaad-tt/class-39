@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+
+/* heder part  */
+.fixed-width{
+    width: 1170px;
+    margin: auto;
+}
+.header{
+    background: #036CAE;
+
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left a{
+    display: block;
+    text-decoration: none;
+    padding:20px 0 10px 30px ;
+    font-size: 20px;
+    color: #fff;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+    padding: 20px 15px;
+    transition: .5s;
+}
+.header-right ul li a:hover{
+    background-color: #f1c40f;
+    color: #000000;
+}
+/* banner section  */
+
+.banner{
+    background-image: url(./images/husen-siraaj-9N0ZsXp5Xv8-unsplash.jpg);
+    height: 500px;
+    background-size: cover;
+}
+.banner .content{
+    text-align: center;
+    padding-top: 241px;
+    line-height: 60px;
+
+}
+.banner .content h1{
+    color: #bdc3c7;
+}
+.banner .content h4{
+    color: #bdc3c7;
+}
+.banner .content .button {
+	width: 111px;
+	height: 36px;
+    border: 2px solid #bdc3c7;
+    border-radius: 4px;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+}
+.banner .content .button p {
+	text-align: center;
+	padding: -86px;
+    margin: -13px;
+    color: #bdc3c7;
+}
+
+
+/* container  */
+.container{
+    background: #FFFFFF;
+}
+    /* about  */
+    .container .about{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .container .about h2{
+        line-height: 60px;
+        color: #37342F;
+    }
+    .container .about h2 p{
+        color: #7f8c8d;
+    }
+    /* service  */
+
+    .service{
+        margin-top: 60px;
+    }
+    .service-item{
+        float: left;
+        width: 23%;
+        text-align: center;
+        color: #37342F;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .service-item span{
+        color: #0172AC;
+        font-size: 40px;
+    }
+    .service-item h3{
+        margin: 20px 0;
+    }
+/* container-2 section  */
+
+.container-2{
+    border-top: 2px solid #0172AC;
+    margin: 50px auto;
+}
+.container-2 .about-us{
+    text-align: center;
+    margin: 50px auto;
+}
+.container-2 .about-us h3{
+    font-size: 30px;
+    color: #37342F;
+    line-height: 60px;
+}
+
+.container-2 .identity .short-image {
+    float: left;
+    width: 38%;
+    margin-left: 2%;
+
+}
+.container-2 .identity .short-image img{
+    width: 400px;
+    height: auto;
+    
+}
+.container-2 .identity .details {
+	width: 56%;
+	float: right;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.container-2 .identity .details .details-1{
+    color: #37342F ;
+    
+}
+.container-2 .identity .details .details-1 p{
+    margin: 15px 0;
+}
+/* contact section  */
+.contact{
+    background-color: #F6F6F6;
+    height: 200px;
+    color:  #37342F;
+}
+.contact .text{
+    text-align: center;
+}
+.contact .text h3{
+    padding-top: 40px;
+    line-height: 30px;
+}
+.contact .icon{
+    text-align: center;
+    margin-top: 30px;
+}
+.contact .icon .icon-1{
+    float: left;
+    width: 32%;
+}
+.contact .icon .icon-1 span{
+    color: #0172AC;
+}
+/* footer  */
+.footer{
+    background:#0172AC ;
+    text-align: center;
+}
+.footer p{
+    color: #FFFFFF;
+    padding: 15px;
+    display: inline-block;
+}
+.copyright{
+    text-align: center;
+    padding: 10px;
+    color: #4b4b4b;
+}
+
+
+
+
+

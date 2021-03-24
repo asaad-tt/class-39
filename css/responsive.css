@@ -1,0 +1,140 @@
+@media (max-width:1174px){
+    .fixed-width{
+        
+        max-width: 100%;
+        margin: auto;
+    }
+}
+@media (max-width:950px){
+    .container-2 .identity .details {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .container-2 .identity .short-image {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .container-2 .identity .details .details-1 p {
+        margin: 15px 21px;
+        
+    }
+}
+@media (max-width:842px){
+    .service-item {
+      
+        width: 48%;
+       
+    }
+}
+@media (max-width:670px){
+    .header-left{
+        
+        width: 100%;
+        text-align: center;
+    }
+    .header-right{
+        text-align: center;
+        width: 100%;
+    }
+    .header-right ul{
+        text-align: center;
+    }
+}
+.header-right span{
+    display: none;
+}
+
+@media (max-width:510px){
+    .footer {
+        margin-top: 10px;
+    }
+    .contact .icon .icon-1 {
+
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .contact {
+        height: 294px;
+        
+    }
+}
+@media (max-width:476px){
+    .header-right ul{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header-right span {
+        font-size: 20px;
+        color: #fff;
+        display: block;
+        text-align: left;
+        margin-left: 20px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        display: block;
+    }
+}
+@media (max-width:452px){
+    .footer {
+        margin-top: 4px;
+    }
+    .contact .icon .icon-1 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .text p {
+        font-size: 14px;
+    }
+    .contact {
+        height: 300px;
+    }
+    .footer p {
+       
+        padding: 15px 10px;
+  
+    }
+}
+@media (max-width:436px){
+    .container-2 .identity .short-image {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+}
+@media (max-width:420px){
+    .service-item {
+       
+        width: 100%;
+       
+    }
+}
+@media (max-width:352px){
+    .banner .content h4 {
+        color: #bdc3c7;
+        font-size: 15px;
+        margin-bottom: -4px;
+        margin-top: -18px;
+    }
+    .banner .content h1 {
+        color: #bdc3c7;
+        font-size: 26px;
+        margin-top: -80px;
+    }
+}
+@media (max-width:324px){
+    .banner .content h4 {
+        color: #bdc3c7;
+        font-size: 12px;
+        margin-bottom: -4px;
+        margin-top: -25px;
+    }
+    .banner .content h1 {
+        color: #bdc3c7;
+        font-size: 22px;
+        margin-top: -88px;
+    }
+}
